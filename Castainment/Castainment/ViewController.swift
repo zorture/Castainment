@@ -12,30 +12,16 @@ import UIKit
 class ViewController: UIViewController {
     @IBOutlet weak var castButton: GCKUICastButton!
     
-    var kReceiverAppID:String = {
-        // You can add your own app id here that you get by registering with the
-        // Google Cast SDK Developer Console https://cast.google.com/publish
-        return kGCKMediaDefaultReceiverApplicationID
+    let castSessionManager : GCKSessionManager = {
+        return CECastAdapter.sharedCastAdapter.castSessionManager()
     }()
     
-    
-    let sessionManager : GCKSessionManager = {
-        let castOptions = GCKCastOptions.init(receiverApplicationID: kGCKMediaDefaultReceiverApplicationID)
-        GCKCastContext.setSharedInstanceWith(castOptions)
-        return GCKCastContext.sharedInstance().sessionManager
-    }()
-    
-    //var castSession : GCKCastSession?
-    
-    let castMediaController : GCKUIMediaController = {
-        return GCKUIMediaController.init()
-    }()
 
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        sessionManager.add(self)
+        castSessionManager.add(self)
         
     }
 
@@ -50,7 +36,7 @@ class ViewController: UIViewController {
         let metadata = GCKMediaMetadata(metadataType: .movie)
 
         let mediaInfo = GCKMediaInformation(contentID: "http://techslides.com/demos/samples/sample.mp4", streamType: .buffered, contentType: "video/mp4", metadata: metadata, streamDuration: 11, mediaTracks: nil, textTrackStyle: nil, customData: nil)
-        let castSession: GCKCastSession? = sessionManager.currentCastSession
+        let castSession: GCKCastSession? = castSessionManager.currentCastSession
         if castSession != nil {
             castSession?.remoteMediaClient?.loadMedia(mediaInfo, autoplay: true)
         }

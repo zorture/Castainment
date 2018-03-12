@@ -28,6 +28,7 @@
 		B9CCE7732055F45F001AA024 /* GoogleCast.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9CCE7722055F45F001AA024 /* GoogleCast.framework */; };
 		B9CCE7742055F576001AA024 /* GoogleCast.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9CCE7722055F45F001AA024 /* GoogleCast.framework */; };
 		B9CCE7752055F576001AA024 /* GoogleCast.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B9CCE7722055F45F001AA024 /* GoogleCast.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B9CCE77A20561582001AA024 /* CECastAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9CCE77920561582001AA024 /* CECastAdapter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -67,6 +68,7 @@
 		B9CCE76A2055E2D4001AA024 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B9CCE7712055E407001AA024 /* Castainment-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Castainment-Bridging-Header.h"; sourceTree = "<group>"; };
 		B9CCE7722055F45F001AA024 /* GoogleCast.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleCast.framework; sourceTree = "<group>"; };
+		B9CCE77920561582001AA024 /* CECastAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CECastAdapter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 		B9CCE73E2055E250001AA024 /* Castainment */ = {
 			isa = PBXGroup;
 			children = (
+				B9CCE776205614EC001AA024 /* App Adapter */,
 				B9CCE73F2055E250001AA024 /* AppDelegate.swift */,
 				B9CCE7412055E250001AA024 /* ViewController.swift */,
 				B9CCE7432055E250001AA024 /* Main.storyboard */,
@@ -145,6 +148,31 @@
 				B9CCE7522055E298001AA024 /* AVFoundation.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B9CCE776205614EC001AA024 /* App Adapter */ = {
+			isa = PBXGroup;
+			children = (
+				B9CCE777205614EC001AA024 /* Rest Adapter */,
+				B9CCE778205614EC001AA024 /* Cast Adapter */,
+			);
+			name = "App Adapter";
+			path = "Classes/App Adapter";
+			sourceTree = "<group>";
+		};
+		B9CCE777205614EC001AA024 /* Rest Adapter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Rest Adapter";
+			sourceTree = "<group>";
+		};
+		B9CCE778205614EC001AA024 /* Cast Adapter */ = {
+			isa = PBXGroup;
+			children = (
+				B9CCE77920561582001AA024 /* CECastAdapter.swift */,
+			);
+			path = "Cast Adapter";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,6 +248,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9CCE77A20561582001AA024 /* CECastAdapter.swift in Sources */,
 				B9CCE7422055E250001AA024 /* ViewController.swift in Sources */,
 				B9CCE7402055E250001AA024 /* AppDelegate.swift in Sources */,
 			);
