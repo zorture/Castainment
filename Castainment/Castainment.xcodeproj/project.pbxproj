@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B9CCE7402055E250001AA024 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9CCE73F2055E250001AA024 /* AppDelegate.swift */; };
+		B9CCE7422055E250001AA024 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9CCE7412055E250001AA024 /* ViewController.swift */; };
+		B9CCE7452055E250001AA024 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9CCE7432055E250001AA024 /* Main.storyboard */; };
+		B9CCE7472055E250001AA024 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9CCE7462055E250001AA024 /* Assets.xcassets */; };
+		B9CCE74A2055E250001AA024 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9CCE7482055E250001AA024 /* LaunchScreen.storyboard */; };
+		B9CCE7552055E298001AA024 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9CCE7522055E298001AA024 /* AVFoundation.framework */; };
+		B9CCE7562055E298001AA024 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9CCE7532055E298001AA024 /* Accelerate.framework */; };
+		B9CCE7572055E298001AA024 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9CCE7542055E298001AA024 /* AudioToolbox.framework */; };
+		B9CCE75B2055E2AE001AA024 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9CCE7582055E2AE001AA024 /* CoreGraphics.framework */; };
+		B9CCE75C2055E2AE001AA024 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9CCE7592055E2AE001AA024 /* CoreBluetooth.framework */; };
+		B9CCE75D2055E2AE001AA024 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9CCE75A2055E2AE001AA024 /* CoreText.framework */; };
+		B9CCE75F2055E2B7001AA024 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9CCE75E2055E2B7001AA024 /* Foundation.framework */; };
+		B9CCE7632055E2C2001AA024 /* MediaToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9CCE7602055E2C2001AA024 /* MediaToolbox.framework */; };
+		B9CCE7642055E2C2001AA024 /* MediaAccessibility.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9CCE7612055E2C2001AA024 /* MediaAccessibility.framework */; };
+		B9CCE7652055E2C2001AA024 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9CCE7622055E2C2001AA024 /* MediaPlayer.framework */; };
+		B9CCE7672055E2CB001AA024 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9CCE7662055E2CB001AA024 /* QuartzCore.framework */; };
+		B9CCE7692055E2CF001AA024 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9CCE7682055E2CF001AA024 /* SystemConfiguration.framework */; };
+		B9CCE76B2055E2D4001AA024 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9CCE76A2055E2D4001AA024 /* UIKit.framework */; };
+		B9CCE7732055F45F001AA024 /* GoogleCast.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9CCE7722055F45F001AA024 /* GoogleCast.framework */; };
+		B9CCE7742055F576001AA024 /* GoogleCast.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9CCE7722055F45F001AA024 /* GoogleCast.framework */; };
+		B9CCE7752055F576001AA024 /* GoogleCast.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B9CCE7722055F45F001AA024 /* GoogleCast.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B9CCE7702055E31A001AA024 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				B9CCE7752055F576001AA024 /* GoogleCast.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B9CCE73C2055E250001AA024 /* Castainment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Castainment.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9CCE73F2055E250001AA024 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B9CCE7412055E250001AA024 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B9CCE7442055E250001AA024 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B9CCE7462055E250001AA024 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B9CCE7492055E250001AA024 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B9CCE74B2055E250001AA024 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9CCE7522055E298001AA024 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		B9CCE7532055E298001AA024 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		B9CCE7542055E298001AA024 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		B9CCE7582055E2AE001AA024 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B9CCE7592055E2AE001AA024 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		B9CCE75A2055E2AE001AA024 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		B9CCE75E2055E2B7001AA024 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B9CCE7602055E2C2001AA024 /* MediaToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaToolbox.framework; path = System/Library/Frameworks/MediaToolbox.framework; sourceTree = SDKROOT; };
+		B9CCE7612055E2C2001AA024 /* MediaAccessibility.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaAccessibility.framework; path = System/Library/Frameworks/MediaAccessibility.framework; sourceTree = SDKROOT; };
+		B9CCE7622055E2C2001AA024 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		B9CCE7662055E2CB001AA024 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		B9CCE7682055E2CF001AA024 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		B9CCE76A2055E2D4001AA024 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B9CCE7712055E407001AA024 /* Castainment-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Castainment-Bridging-Header.h"; sourceTree = "<group>"; };
+		B9CCE7722055F45F001AA024 /* GoogleCast.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleCast.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B9CCE7392055E250001AA024 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9CCE7732055F45F001AA024 /* GoogleCast.framework in Frameworks */,
+				B9CCE76B2055E2D4001AA024 /* UIKit.framework in Frameworks */,
+				B9CCE7692055E2CF001AA024 /* SystemConfiguration.framework in Frameworks */,
+				B9CCE7742055F576001AA024 /* GoogleCast.framework in Frameworks */,
+				B9CCE7672055E2CB001AA024 /* QuartzCore.framework in Frameworks */,
+				B9CCE7632055E2C2001AA024 /* MediaToolbox.framework in Frameworks */,
+				B9CCE7642055E2C2001AA024 /* MediaAccessibility.framework in Frameworks */,
+				B9CCE7652055E2C2001AA024 /* MediaPlayer.framework in Frameworks */,
+				B9CCE75F2055E2B7001AA024 /* Foundation.framework in Frameworks */,
+				B9CCE75B2055E2AE001AA024 /* CoreGraphics.framework in Frameworks */,
+				B9CCE75C2055E2AE001AA024 /* CoreBluetooth.framework in Frameworks */,
+				B9CCE75D2055E2AE001AA024 /* CoreText.framework in Frameworks */,
+				B9CCE7552055E298001AA024 /* AVFoundation.framework in Frameworks */,
+				B9CCE7562055E298001AA024 /* Accelerate.framework in Frameworks */,
+				B9CCE7572055E298001AA024 /* AudioToolbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B9CCE7332055E250001AA024 = {
+			isa = PBXGroup;
+			children = (
+				B9CCE73E2055E250001AA024 /* Castainment */,
+				B9CCE73D2055E250001AA024 /* Products */,
+				B9CCE7512055E297001AA024 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B9CCE73D2055E250001AA024 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B9CCE73C2055E250001AA024 /* Castainment.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B9CCE73E2055E250001AA024 /* Castainment */ = {
+			isa = PBXGroup;
+			children = (
+				B9CCE73F2055E250001AA024 /* AppDelegate.swift */,
+				B9CCE7412055E250001AA024 /* ViewController.swift */,
+				B9CCE7432055E250001AA024 /* Main.storyboard */,
+				B9CCE7462055E250001AA024 /* Assets.xcassets */,
+				B9CCE7482055E250001AA024 /* LaunchScreen.storyboard */,
+				B9CCE74B2055E250001AA024 /* Info.plist */,
+				B9CCE7712055E407001AA024 /* Castainment-Bridging-Header.h */,
+			);
+			path = Castainment;
+			sourceTree = "<group>";
+		};
+		B9CCE7512055E297001AA024 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B9CCE7722055F45F001AA024 /* GoogleCast.framework */,
+				B9CCE76A2055E2D4001AA024 /* UIKit.framework */,
+				B9CCE7682055E2CF001AA024 /* SystemConfiguration.framework */,
+				B9CCE7662055E2CB001AA024 /* QuartzCore.framework */,
+				B9CCE7612055E2C2001AA024 /* MediaAccessibility.framework */,
+				B9CCE7622055E2C2001AA024 /* MediaPlayer.framework */,
+				B9CCE7602055E2C2001AA024 /* MediaToolbox.framework */,
+				B9CCE75E2055E2B7001AA024 /* Foundation.framework */,
+				B9CCE7592055E2AE001AA024 /* CoreBluetooth.framework */,
+				B9CCE7582055E2AE001AA024 /* CoreGraphics.framework */,
+				B9CCE75A2055E2AE001AA024 /* CoreText.framework */,
+				B9CCE7532055E298001AA024 /* Accelerate.framework */,
+				B9CCE7542055E298001AA024 /* AudioToolbox.framework */,
+				B9CCE7522055E298001AA024 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B9CCE73B2055E250001AA024 /* Castainment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9CCE74E2055E250001AA024 /* Build configuration list for PBXNativeTarget "Castainment" */;
+			buildPhases = (
+				B9CCE7382055E250001AA024 /* Sources */,
+				B9CCE7392055E250001AA024 /* Frameworks */,
+				B9CCE73A2055E250001AA024 /* Resources */,
+				B9CCE7702055E31A001AA024 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Castainment;
+			productName = Castainment;
+			productReference = B9CCE73C2055E250001AA024 /* Castainment.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B9CCE7342055E250001AA024 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Kanwar Zorawar Singh Rana";
+				TargetAttributes = {
+					B9CCE73B2055E250001AA024 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = B9CCE7372055E250001AA024 /* Build configuration list for PBXProject "Castainment" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B9CCE7332055E250001AA024;
+			productRefGroup = B9CCE73D2055E250001AA024 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B9CCE73B2055E250001AA024 /* Castainment */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B9CCE73A2055E250001AA024 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9CCE74A2055E250001AA024 /* LaunchScreen.storyboard in Resources */,
+				B9CCE7472055E250001AA024 /* Assets.xcassets in Resources */,
+				B9CCE7452055E250001AA024 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B9CCE7382055E250001AA024 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9CCE7422055E250001AA024 /* ViewController.swift in Sources */,
+				B9CCE7402055E250001AA024 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B9CCE7432055E250001AA024 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9CCE7442055E250001AA024 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B9CCE7482055E250001AA024 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9CCE7492055E250001AA024 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B9CCE74C2055E250001AA024 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B9CCE74D2055E250001AA024 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B9CCE74F2055E250001AA024 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5E2GFLNUNY;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = Castainment/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xorture.Castainment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/$(PROJECT_NAME)/$(PROJECT_NAME)-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B9CCE7502055E250001AA024 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5E2GFLNUNY;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = Castainment/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xorture.Castainment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/$(PROJECT_NAME)/$(PROJECT_NAME)-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B9CCE7372055E250001AA024 /* Build configuration list for PBXProject "Castainment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9CCE74C2055E250001AA024 /* Debug */,
+				B9CCE74D2055E250001AA024 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9CCE74E2055E250001AA024 /* Build configuration list for PBXNativeTarget "Castainment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9CCE74F2055E250001AA024 /* Debug */,
+				B9CCE7502055E250001AA024 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B9CCE7342055E250001AA024 /* Project object */;
+}
